@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * print_alphabet_x10 - Prints the alphabet x10 in lowercase followed by a new line
+ * print_alphabet_x10 - Prints the alphabet x10 in lowercase then by a new line
  *
  * Return: void
  */
