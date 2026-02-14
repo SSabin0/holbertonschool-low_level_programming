@@ -4,10 +4,16 @@
 #include "main.h"
 
 /**
-* main - Entry point of program
-* Return: 0 if success
-*
-*/
+ * print_alphabet - Prints the alphabet in lowercase followed by a new line
+ *
+ * Return: void
+ */
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 
 void print_alphabet(void)
 {
