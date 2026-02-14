@@ -1,15 +1,25 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
+#include "main.h"
+
 /**
 * main - Entry point of program
 * Return: 0 if success
 *
 */
+
 int main(void)
 {
-	printf("_putchar\n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
