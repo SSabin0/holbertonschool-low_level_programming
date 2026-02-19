@@ -9,9 +9,9 @@ void print_most_numbers(void)
 
 char c;
 
-for (i = '0'; i < '9'; i++)
+for (c = '0'; c < '9'; i++)
 {
-if (i != 2 && != 4)
+if (c != 2 && != 4)
 {
 putchar(c);
 }
