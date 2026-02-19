@@ -11,10 +11,10 @@ char c;
 
 for (c = '0'; c < '9'; i++)
 {
-if (c != 2 && != 4)
+if (c != '2' && != '4')
 {
-putchar(c);
+_putchar(c);
 }
 }
-putchar('\n');
+_putchar('\n');
 }
