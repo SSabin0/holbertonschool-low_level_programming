@@ -1,7 +1,5 @@
-#include "main.h"
-
 /**
- * print_rev - toma la cadena de la funcion.
+ * print_rev - print the string in reverse followed by a new line
  * @s: value taken from main
  * Return: (0)
  */
@@ -17,4 +15,4 @@ void print_rev(char *s)
 		_putchar(s[len]);
 	}
 	_putchar('\n');
-}                                                                                                                                    
+}
