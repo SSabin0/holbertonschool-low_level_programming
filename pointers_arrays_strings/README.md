@@ -1,0 +1,1 @@
+README fo pointers & arrays
