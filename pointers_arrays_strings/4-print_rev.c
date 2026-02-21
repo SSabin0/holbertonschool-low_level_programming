@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_rev - print the string in reverse followed by a new line
  * @s: value taken from main
