@@ -2,15 +2,32 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ *puts_half - update value.
+ *@str: value to be evaluate.
+ *Return: not.
  */
-int main(void)
+void puts_half(char *str)
 {
-  char *str;
+	int len = 0;
+	char *y = str;
+	int n;
 
-  str = "0123456789";
-  puts_half(str);
-  return (0);
+	while (*y != '\0')
+	{
+		y++;
+		len++;
+	}
+	if (len % 2 == 0)
+	{
+		n = len / 2;
+	}
+	else
+	{
+		n = (len + 1) / 2;
+	}
+	for ( ; n < len ; n++)
+	{
+		_putchar(str[n]);
+	}
+	_putchar('\n');
 }
