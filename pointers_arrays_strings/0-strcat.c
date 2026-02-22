@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * _strcat - Concatenates the string pointed to by @src, including the terminating
- *          null byte, to the end of the string pointed to by @dest.
+ * _strcat - Concatenates string pointed to by @src, and the terminating
+ *          null byte, into end of the string pointed to by @dest.
  * @dest: pointer to the string to be concatenated upon.
  * @src: source string to be appended to @dest.
  *
